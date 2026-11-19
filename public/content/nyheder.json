@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Velkommen til vores nye hjemmeside",
+    "date": "2026-11-19",
+    "category": "Fra landsbyen",
+    "summary": "Et nyt sted til nyheder, praktisk information og historier fra Kragnæs. Dejligt, at du er her.",
+    "body": "Vi er glade for at kunne byde velkommen til Kragnæs Landsbys nye hjemmeside.",
+    "image": "",
+    "published": true
+  },
+  {
+    "title": "Bådebroen er renoveret",
+    "date": "2026-11-19",
+    "category": "Livet ved havnen",
+    "summary": "Et af de fælles initiativer, der er med til at skabe liv omkring havnen.",
+    "body": "Bådebroen er blevet renoveret. Tak til alle, der bidrager til fællesskabet.",
+    "image": "",
+    "published": true
+  },
+  {
+    "title": "Vær med i fællesskabet",
+    "date": "2026-11-19",
+    "category": "Foreningsliv",
+    "summary": "Kragnæs Havn Bådelaug er et samlingssted for landsbyen og omegn. Der er også plads til dig.",
+    "body": "Kragnæs Havn Bådelaug er åben for alle, som ønsker at bakke op om fællesskabet.",
+    "image": "",
+    "published": true
+  }
+]
