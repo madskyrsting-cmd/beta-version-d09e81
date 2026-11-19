@@ -47,7 +47,7 @@ const localContent = async (file) => {
 const safeImage = (value) => {
   if (typeof value !== 'string' || !value.trim()) return '';
   // Kun lokale uploadede billeder må bruges i de offentlige kort.
-  const match = value.match(/^(?:\/|\.\/)?img\/uploads\/[a-zA-Z0-9_./-]+$/);
+  const match = value.match(/^(?:\/|\.\/)?img\/[a-zA-Z0-9_./-]+$/);
   return match && !value.includes('..') ? value.replace(/^\//, './') : '';
 };
 
