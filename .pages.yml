@@ -73,6 +73,9 @@ content:
     path: public/content/tekster.json
     format: json
     fields:
+      - name: hero_image
+        label: Forside — stort baggrundsbillede
+        type: image
       - name: hero_line1
         label: Forside — overskrift, linje 1
         type: string
