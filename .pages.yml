@@ -1,7 +1,7 @@
 # Kragnæs Landsby – Pages CMS
 media:
-  input: public/img/uploads
-  output: /img/uploads
+  input: public/img
+  output: /img
 
 content:
   - name: nyheder
