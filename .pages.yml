@@ -1,0 +1,102 @@
+# Kragnæs Landsby – Pages CMS
+media:
+  input: public/img/uploads
+  output: /img/uploads
+
+content:
+  - name: nyheder
+    label: Nyheder
+    type: file
+    path: public/content/nyheder.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Overskrift
+        type: string
+        required: true
+      - name: date
+        label: Dato
+        type: date
+        options:
+          format: yyyy-MM-dd
+      - name: category
+        label: Kategori
+        type: string
+      - name: summary
+        label: Kort beskrivelse
+        type: text
+      - name: body
+        label: Hele nyheden
+        type: text
+      - name: image
+        label: Billede (valgfrit)
+        type: image
+      - name: published
+        label: Vis på hjemmesiden
+        type: boolean
+
+  - name: arrangementer
+    label: Arrangementer
+    type: file
+    path: public/content/arrangementer.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Arrangementets navn
+        type: string
+        required: true
+      - name: date
+        label: Dato og tidspunkt
+        type: date
+        required: true
+        options:
+          time: true
+          format: "yyyy-MM-dd'T'HH:mm"
+      - name: location
+        label: Sted
+        type: string
+      - name: description
+        label: Beskrivelse
+        type: text
+      - name: image
+        label: Billede (valgfrit)
+        type: image
+      - name: published
+        label: Vis på hjemmesiden
+        type: boolean
+
+  - name: tekster
+    label: Hjemmesidens tekster
+    type: file
+    path: public/content/tekster.json
+    format: json
+    fields:
+      - name: hero_line1
+        label: Forside — overskrift, linje 1
+        type: string
+      - name: hero_line2
+        label: Forside — overskrift, linje 2
+        type: string
+      - name: hero_description
+        label: Forside — beskrivelse
+        type: text
+      - name: intro_lead
+        label: Om Kragnæs — første tekst
+        type: text
+      - name: intro_body
+        label: Om Kragnæs — øvrig tekst
+        type: text
+      - name: calendar_description
+        label: Arrangementer — introduktion
+        type: text
+      - name: association_intro
+        label: Bådelauget — første tekst
+        type: text
+      - name: association_body
+        label: Bådelauget — øvrig tekst
+        type: text
+      - name: contact_description
+        label: Kontakt — tekst
+        type: text
