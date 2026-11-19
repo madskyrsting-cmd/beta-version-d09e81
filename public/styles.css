@@ -298,3 +298,17 @@ em { font-weight: 400; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* Indhold som vedligeholdes gennem Pages CMS */
+.featured-art .content-photo { width: 100%; height: 100%; object-fit: cover; position: absolute; inset: 0; }
+.story-photo { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 3px; }
+.story-details { margin-top: 13px; font-size: 12px; line-height: 1.75; color: var(--muted); }
+.story-details summary { cursor: pointer; color: var(--green); font-weight: 600; }
+.story-details p { margin-top: 12px; white-space: pre-line; }
+.content-empty { padding: 30px 0; color: var(--muted); }
+.event-list { display: flex; flex-direction: column; gap: 14px; }
+.event-card { padding: 26px 28px; background: #eeefe8; border: 1px solid #e2e5da; border-radius: 5px; }
+.event-card h3 { font-family: var(--serif); font-size: 29px; line-height: 1.25; margin-block: 8px 10px; }
+.event-card p { font-size: 13px; line-height: 1.75; color: var(--muted); white-space: pre-line; margin-top: 9px; }
+.event-card .event-location { font-weight: 600; color: var(--green); }
+.event-photo { display: block; max-height: 210px; width: 100%; object-fit: cover; border-radius: 3px; margin-bottom: 18px; }
