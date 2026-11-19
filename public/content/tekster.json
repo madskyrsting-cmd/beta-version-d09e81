@@ -1,4 +1,5 @@
 {
+  "hero_image": "/img/IMG_9842.jpg",
   "hero_line1": "Et lille sted.",
   "hero_line2": "Et stort fællesskab.",
   "hero_description": "For os, der bor her. For dig, der kommer forbi. Og for alle, der har et lille stykke Kragnæs i hjertet. ",
@@ -7,6 +8,5 @@
   "calendar_description": "Fælles arbejdsdage, hyggelige sammenkomster og alt det indimellem. Her finder du kommende arrangementer i Kragnæs.",
   "association_intro": "Vi ønsker en levende landsby, hvor initiativer, frivillighed og godt naboskab får plads til at vokse.",
   "association_body": "Kragnæs Havn Bådelaug er et fælles mødested for Kragnæs og omegn. Medlemskab er åbent for alle, der gerne vil bakke op om fællesskabet.",
-  "contact_description": "Har du en nyhed, et godt forslag eller lyst til at være med?",
-  "hero_image": "/img/landscape.jpg"
+  "contact_description": "Har du en nyhed, et godt forslag eller lyst til at være med?"
 }
