@@ -163,6 +163,13 @@ function showEvents(entries) {
 
 function showTexts(data) {
   if (!data || typeof data !== 'object' || Array.isArray(data)) return;
+  const heroImage = document.querySelector('.hero-image');
+  if (heroImage && typeof data.hero_image === 'string') {
+    const src = data.hero_image === '/img/landscape.jpg'
+      ? './img/landscape.jpg'
+      : safeImage(data.hero_image);
+    if (src) heroImage.src = src;
+  }
   const mapping = {
     hero_line1: 'hero-line1', hero_line2: 'hero-line2',
     hero_description: 'hero-description',
