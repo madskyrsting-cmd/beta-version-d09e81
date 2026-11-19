@@ -122,7 +122,7 @@ function showNews(entries) {
     visible.slice(1).forEach(item => rest.append(newsCard(item)));
     grid.append(rest);
   }
-  document.querySelector('.beta-notice')?.remove();
+  if (!visible.some(item => item.example === true)) document.querySelector('.beta-notice')?.remove();
 }
 
 const formatDate = (value) => {
