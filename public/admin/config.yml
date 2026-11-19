@@ -1,0 +1,32 @@
+backend:
+  name: github
+  repo: madskyrsting-cmd/beta-version-d09e81
+  branch: main
+
+media_folder: "public/img/uploads"
+public_folder: "/img/uploads"
+
+locale: "da"
+
+collections:
+  - name: "nyheder"
+    label: "Nyheder"
+    folder: "content/nyheder"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Overskrift", name: "title", widget: "string" }
+      - { label: "Dato", name: "date", widget: "datetime" }
+      - { label: "Billede", name: "image", widget: "image", required: false }
+      - { label: "Nyhedstekst", name: "body", widget: "markdown" }
+
+  - name: "arrangementer"
+    label: "Arrangementer"
+    folder: "content/arrangementer"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Arrangement", name: "title", widget: "string" }
+      - { label: "Dato og tidspunkt", name: "date", widget: "datetime" }
+      - { label: "Sted", name: "location", widget: "string" }
+      - { label: "Beskrivelse", name: "body", widget: "markdown" }
